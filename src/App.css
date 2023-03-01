@@ -1,0 +1,72 @@
+.mb-3 {
+  max-width: 40%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.perfil {
+  width: 20%;
+  height: 20%;
+  border-radius: 400px;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 5%;
+}
+
+.Feed{
+  margin-left: 8% !important;
+}
+
+#Contatos{
+ justify-content: left;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+ line-height: 25px;
+}
+
+#Contatos p {
+  margin-bottom: 5%;
+}
+
+#Contatos img {
+  width: 100%;
+}
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
